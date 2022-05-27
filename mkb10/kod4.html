@@ -1,0 +1,148 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни органов дыхания</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Абсцесс глотки [другой]</td><th>J39.1</th></tr>
+<tr><td>Абсцесс легкого и средостения</td><th>J85</th></tr>
+<tr><td>Абсцесс паратонзиллярный</td><th>J36</th></tr>
+<tr><td>Астма бронхиальная [приступ]</td><th>J45</th></tr>
+<tr><td>Астматический статус [status asthmaticus]</td><th>J46</th></tr>
+<tr><td>Бронхиолит острый</td><th>J21</th></tr>
+<tr><td>Бронхит астматический</td><th>J45.9</th></tr>
+<tr><td>Бронхит острый</td><th>J20</th></tr>
+<tr><td>Бронхит хронический</td><th>J42</th></tr>
+<tr><td>Бронхоэктатическая болезнь</td><th>J47</th></tr>
+<tr><td>Грипп</td><th>J11</th></tr>
+<tr><td>Грипп с др. ОРВИ</td><th>J11.1</th></tr>
+<tr><td>Грипп с пневмонией</td><th>J11.0</th></tr>
+<tr><td>Ларингит и трахеит острый</td><th>J04</th></tr>
+<tr><td>Легочный коллапс [ателектаз]</td><th>J98.1</th></tr>
+<tr><td>Назофарингит острый [насморк]</td><th>J00</th></tr>
+<tr><td>Нарушение функционирования трахеостомы</td><th>J95.0</th></tr>
+<tr><td>ОРВИ</td><th>J06.9</th></tr>
+<tr><td>ОРВИ с гипертермией</td><th>J06</th></tr>
+<tr><td>Острая респираторная недостаточность</td><th>J96.0</th></tr>
+<tr><td>Пиоторакс</td><th>J86</th></tr>
+<tr><td>Плевральный выпот [плеврит с выпотом]</td><th>J90</th></tr>
+<tr><td>Пневмония</td><th>J18</th></tr>
+<tr><td>Пневмония гипостатическая [застойная]</td><th>J18.2</th></tr>
+<tr><td>Пневмоторакс [нетравматический]</td><th>J93</th></tr>
+<tr><td>Ринит вазомоторный и аллергический</td><th>J30</th></tr>
+<tr><td>Синусит острый</td><th>J01</th></tr>
+<tr><td>Стеноз гортани</td><th>J38.6</th></tr>
+<tr><td>Тонзиллит острый [ангина]</td><th>J03</th></tr>
+<tr><td>Фарингит острый</td><th>J02</th></tr>
+<tr><td>Эмфизема</td><th>J43</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни органов дыхания</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>J00</th><td>Назофарингит острый [насморк]</td></tr>
+<tr><th>J01</th><td>Синусит острый</td></tr>
+<tr><th>J02</th><td>Фарингит острый</td></tr>
+<tr><th>J03</th><td>Тонзиллит острый [ангина]</td></tr>
+<tr><th>J04</th><td>Ларингит и трахеит острый</td></tr>
+<tr><th>J06</th><td>ОРВИ с гипертермией</td></tr>
+<tr><th>J06.9</th><td>ОРВИ</td></tr>
+<tr><th>J11</th><td>Грипп</td></tr>
+<tr><th>J11.0</th><td>Грипп с пневмонией</td></tr>
+<tr><th>J11.1</th><td>Грипп с др. ОРВИ</td></tr>
+<tr><th>J18</th><td>Пневмония</td></tr>
+<tr><th>J18.2</th><td>Пневмония гипостатическая [застойная]</td></tr>
+<tr><th>J20</th><td>Бронхит острый</td></tr>
+<tr><th>J21</th><td>Бронхиолит острый</td></tr>
+<tr><th>J30</th><td>Ринит вазомоторный и аллергический</td></tr>
+<tr><th>J36</th><td>Абсцесс паратонзиллярный</td></tr>
+<tr><th>J38.6</th><td>Стеноз гортани</td></tr>
+<tr><th>J39.1</th><td>Абсцесс глотки [другой]</td></tr>
+<tr><th>J42</th><td>Бронхит хронический</td></tr>
+<tr><th>J43</th><td>Эмфизема</td></tr>
+<tr><th>J45</th><td>Астма бронхиальная [приступ]</td></tr>
+<tr><th>J45.9</th><td>Бронхит астматический</td></tr>
+<tr><th>J46</th><td>Астматический статус [status asthmaticus]</td></tr>
+<tr><th>J47</th><td>Бронхоэктатическая болезнь</td></tr>
+<tr><th>J85</th><td>Абсцесс легкого и средостения</td></tr>
+<tr><th>J86</th><td>Пиоторакс</td></tr>
+<tr><th>J90</th><td>Плевральный выпот [плеврит с выпотом]</td></tr>
+<tr><th>J93</th><td>Пневмоторакс [нетравматический]</td></tr>
+<tr><th>J95.0</th><td>Нарушение функционирования трахеостомы</td></tr>
+<tr><th>J96.0</th><td>Острая респираторная недостаточность</td></tr>
+<tr><th>J98.1</th><td>Легочный коллапс [ателектаз]</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

@@ -1,0 +1,170 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни органов пищеварения</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Аппендицит неуточненный</td><th>K37</th></tr>
+<tr><td>Болезнь Крона [регионарный энтерит]</td><th>K50</th></tr>
+<tr><td>Брюшинные спайки</td><th>K66.0</th></tr>
+<tr><td>Выпадение прямой кишки</td><th>K62.3</th></tr>
+<tr><td>Гастрит и дуоденит</td><th>K29</th></tr>
+<tr><td>Гастроэзофагеальный рефлюкс</td><th>K21</th></tr>
+<tr><td>Гепатит хронический [неинфекционный]</td><th>K73</th></tr>
+<tr><td>Гингивит острый</td><th>K05.0</th></tr>
+<tr><td>Грыжа бедренная</td><th>K41</th></tr>
+<tr><td>Грыжа брюшной полости неуточненная</td><th>K46</th></tr>
+<tr><td>Грыжа диафрагмальная</td><th>K44</th></tr>
+<tr><td>Грыжа паховая</td><th>K40</th></tr>
+<tr><td>Грыжа передней брюшной стенки</td><th>K43</th></tr>
+<tr><td>Грыжа пупочная</td><th>K42</th></tr>
+<tr><td>Дискинезия желчевыводящих путей</td><th>K82.8</th></tr>
+<tr><td>Диспепсия</td><th>K30</th></tr>
+<tr><td>Желудочно-кишечное кровотечение неуточненное</td><th>K92.2</th></tr>
+<tr><td>Желчекаменная болезнь [холелитиаз]</td><th>K80</th></tr>
+<tr><td>Запор</td><th>K59.0</th></tr>
+<tr><td>Зубная боль</td><th>K08</th></tr>
+<tr><td>Кишечная непроходимость неуточненная</td><th>K56.6</th></tr>
+<tr><td>Колит спастический</td><th>K52</th></tr>
+<tr><td>Колит язвенный</td><th>K51</th></tr>
+<tr><td>Кровотечение из заднего прохода и прямой кишки</td><th>K62.5</th></tr>
+<tr><td>Панкреатит острый</td><th>K85</th></tr>
+<tr><td>Парапроктит [ректальный абсцесс]</td><th>K61.1</th></tr>
+<tr><td>Перитонит острый</td><th>K65.0</th></tr>
+<tr><td>Печеночная недостаточность неуточненная</td><th>K72.9</th></tr>
+<tr><td>Портальная гипертензия</td><th>K76.6</th></tr>
+<tr><td>Постхолецистэктомический синдром</td><th>K91.5</th></tr>
+<tr><td>Синдром прорезывания зубов</td><th>K00.7</th></tr>
+<tr><td>Сосудистые болезни кишечника</td><th>K55</th></tr>
+<tr><td>Стоматит</td><th>K12</th></tr>
+<tr><td>Трещина и свищ области заднего прохода и прямой кишки</td><th>K60</th></tr>
+<tr><td>Тромбоз мезентериальных сосудов</td><th>K55.0</th></tr>
+<tr><td>Функциональное нарушение кишечника неуточненное</td><th>K59.9</th></tr>
+<tr><td>Функциональные расстройства желудка</td><th>K31</th></tr>
+<tr><td>Холецистит острый</td><th>K81.0</th></tr>
+<tr><td>Цирроз печени</td><th>K74</th></tr>
+<tr><td>Цирроз печени алкогольный</td><th>K70.3</th></tr>
+<tr><td>Язва двенадцатиперстной кишки</td><th>K26</th></tr>
+<tr><td>Язва желудка</td><th>K25</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни органов пищеварения</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>K00.7</th><td>Синдром прорезывания зубов</td></tr>
+<tr><th>K05.0</th><td>Гингивит острый</td></tr>
+<tr><th>K08</th><td>Зубная боль</td></tr>
+<tr><th>K12</th><td>Стоматит</td></tr>
+<tr><th>K21</th><td>Гастроэзофагеальный рефлюкс</td></tr>
+<tr><th>K25</th><td>Язва желудка</td></tr>
+<tr><th>K26</th><td>Язва двенадцатиперстной кишки</td></tr>
+<tr><th>K29</th><td>Гастрит и дуоденит</td></tr>
+<tr><th>K30</th><td>Диспепсия</td></tr>
+<tr><th>K31</th><td>Функциональные расстройства желудка</td></tr>
+<tr><th>K37</th><td>Аппендицит неуточненный</td></tr>
+<tr><th>K40</th><td>Грыжа паховая</td></tr>
+<tr><th>K41</th><td>Грыжа бедренная</td></tr>
+<tr><th>K42</th><td>Грыжа пупочная</td></tr>
+<tr><th>K43</th><td>Грыжа передней брюшной стенки</td></tr>
+<tr><th>K44</th><td>Грыжа диафрагмальная</td></tr>
+<tr><th>K46</th><td>Грыжа брюшной полости неуточненная</td></tr>
+<tr><th>K50</th><td>Болезнь Крона [регионарный энтерит]</td></tr>
+<tr><th>K51</th><td>Колит язвенный</td></tr>
+<tr><th>K52</th><td>Колит спастический</td></tr>
+<tr><th>K55</th><td>Сосудистые болезни кишечника</td></tr>
+<tr><th>K55.0</th><td>Тромбоз мезентериальных сосудов</td></tr>
+<tr><th>K56.6</th><td>Кишечная непроходимость неуточненная</td></tr>
+<tr><th>K59.0</th><td>Запор</td></tr>
+<tr><th>K59.9</th><td>Функциональное нарушение кишечника неуточненное</td></tr>
+<tr><th>K60</th><td>Трещина и свищ области заднего прохода и прямой кишки</td></tr>
+<tr><th>K61.1</th><td>Парапроктит [ректальный абсцесс]</td></tr>
+<tr><th>K62.3</th><td>Выпадение прямой кишки</td></tr>
+<tr><th>K62.5</th><td>Кровотечение из заднего прохода и прямой кишки</td></tr>
+<tr><th>K65.0</th><td>Перитонит острый</td></tr>
+<tr><th>K66.0</th><td>Брюшинные спайки</td></tr>
+<tr><th>K70.3</th><td>Цирроз печени алкогольный</td></tr>
+<tr><th>K72.9</th><td>Печеночная недостаточность неуточненная</td></tr>
+<tr><th>K73</th><td>Гепатит хронический [неинфекционный]</td></tr>
+<tr><th>K74</th><td>Цирроз печени</td></tr>
+<tr><th>K76.6</th><td>Портальная гипертензия</td></tr>
+<tr><th>K80</th><td>Желчекаменная болезнь [холелитиаз]</td></tr>
+<tr><th>K81.0</th><td>Холецистит острый</td></tr>
+<tr><th>K82.8</th><td>Дискинезия желчевыводящих путей</td></tr>
+<tr><th>K85</th><td>Панкреатит острый</td></tr>
+<tr><th>K91.5</th><td>Постхолецистэктомический синдром</td></tr>
+<tr><th>K92.2</th><td>Желудочно-кишечное кровотечение неуточненное</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

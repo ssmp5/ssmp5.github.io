@@ -1,0 +1,120 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Симптомы, признаки и отклонения от нормы</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Асцит</td><th>R18</th></tr>
+<tr><td>Боли в области живота и таза [кишечная колика]</td><th>R10</th></tr>
+<tr><td>Гематурия</td><th>R31</th></tr>
+<tr><td>Дисфазия и афазия</td><th>R47.0</th></tr>
+<tr><td>Желтуха неуточненная</td><th>R17</th></tr>
+<tr><td>Задержка мочи</td><th>R33</th></tr>
+<tr><td>Икота</td><th>R06.6</th></tr>
+<tr><td>Кахексия</td><th>R64</th></tr>
+<tr><td>Кома неуточненная</td><th>R40.2</th></tr>
+<tr><td>Кровотечение из дыхательных путей</td><th>R04</th></tr>
+<tr><td>Обморок [синкопе] и коллапс</td><th>R55</th></tr>
+<tr><td>Смерть до приезда бригады</td><th>R99</th></tr>
+<tr><td>Спазмофилия</td><th>R29.0</th></tr>
+<tr><td>Судорожный припадок</td><th>R56.8</th></tr>
+<tr><td>Токсикоз беременных</td><th>R68.8</th></tr>
+<tr><td>Шок кардиогенный</td><th>R57.0</th></tr>
+<tr><td>Шок неуточненный</td><th>R57.9</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Симптомы, признаки и отклонения от нормы</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>R04</th><td>Кровотечение из дыхательных путей</td></tr>
+<tr><th>R06.6</th><td>Икота</td></tr>
+<tr><th>R10</th><td>Боли в области живота и таза [кишечная колика]</td></tr>
+<tr><th>R17</th><td>Желтуха неуточненная</td></tr>
+<tr><th>R18</th><td>Асцит</td></tr>
+<tr><th>R29.0</th><td>Спазмофилия</td></tr>
+<tr><th>R31</th><td>Гематурия</td></tr>
+<tr><th>R33</th><td>Задержка мочи</td></tr>
+<tr><th>R40.2</th><td>Кома неуточненная</td></tr>
+<tr><th>R47.0</th><td>Дисфазия и афазия</td></tr>
+<tr><th>R55</th><td>Обморок [синкопе] и коллапс</td></tr>
+<tr><th>R56.8</th><td>Судорожный припадок</td></tr>
+<tr><th>R57.0</th><td>Шок кардиогенный</td></tr>
+<tr><th>R57.9</th><td>Шок неуточненный</td></tr>
+<tr><th>R64</th><td>Кахексия</td></tr>
+<tr><th>R68.8</th><td>Токсикоз беременных</td></tr>
+<tr><th>R99</th><td>Смерть до приезда бригады</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

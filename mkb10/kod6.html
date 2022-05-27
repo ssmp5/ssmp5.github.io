@@ -1,0 +1,136 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни нервной ситемы</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Болезнь Гентингтона</td><th>G10</th></tr>
+<tr><td>Болезнь двигательного нейрона [боковой амиотрофический склероз]</td><th>G12.2</th></tr>
+<tr><td>Болезнь Паркинсона</td><th>G20</th></tr>
+<tr><td>Детский церебральный паралич [ДЦП]</td><th>G80</th></tr>
+<tr><td>Диссеминированная демиелинизация</td><th>G36</th></tr>
+<tr><td>Межреберная невропатия</td><th>G58.0</th></tr>
+<tr><td>Менингит и арахноидит бактериальный</td><th>G00</th></tr>
+<tr><td>Мигрень</td><th>G43</th></tr>
+<tr><td>Миелопатия сосудистая [острый инфаркт спинного мозга]</td><th>G95.1</th></tr>
+<tr><td>Невралгия лицевого нерва</td><th>G51</th></tr>
+<tr><td>Невралгия тройничного нерва</td><th>G50</th></tr>
+<tr><td>Полиневропатия алкогольная, лекарственная</td><th>G62</th></tr>
+<tr><td>Полиневропатия воспалительная</td><th>G61</th></tr>
+<tr><td>Последствия воспалительных заболеваний ЦНС</td><th>G09</th></tr>
+<tr><td>Радикулит и плексит</td><th>G54</th></tr>
+<tr><td>Рассеянный склероз</td><th>G35</th></tr>
+<tr><td>Сирингомиелия и сирингобульбия</td><th>G95.0</th></tr>
+<tr><td>Транзиторная церебральная ишемическая атака [ТИА]</td><th>G45</th></tr>
+<tr><td>Церебральная киста</td><th>G93.0</th></tr>
+<tr><td>Энцефалит, миелит и энцефаломиелит</td><th>G04</th></tr>
+<tr><td>Энцефалопатия вызванная алкоголем</td><th>G31.2</th></tr>
+<tr><td>Энцефалопатия посттравматическая</td><th>G44.3</th></tr>
+<tr><td>Энцефалопатия токсическая</td><th>G92</th></tr>
+<tr><td>Эпилепсия</td><th>G40</th></tr>
+<tr><td>Эпилептический статус</td><th>G41</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни нервной ситемы</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>G00</th><td>Менингит и арахноидит бактериальный</td></tr>
+<tr><th>G04</th><td>Энцефалит, миелит и энцефаломиелит</td></tr>
+<tr><th>G09</th><td>Последствия воспалительных заболеваний ЦНС</td></tr>
+<tr><th>G10</th><td>Болезнь Гентингтона</td></tr>
+<tr><th>G12.2</th><td>Болезнь двигательного нейрона [боковой амиотрофический склероз]</td></tr>
+<tr><th>G20</th><td>Болезнь Паркинсона</td></tr>
+<tr><th>G31.2</th><td>Энцефалопатия вызванная алкоголем</td></tr>
+<tr><th>G35</th><td>Рассеянный склероз</td></tr>
+<tr><th>G36</th><td>Диссеминированная демиелинизация</td></tr>
+<tr><th>G40</th><td>Эпилепсия</td></tr>
+<tr><th>G41</th><td>Эпилептический статус</td></tr>
+<tr><th>G43</th><td>Мигрень</td></tr>
+<tr><th>G44.3</th><td>Энцефалопатия посттравматическая</td></tr>
+<tr><th>G45</th><td>Транзиторная церебральная ишемическая атака [ТИА]</td></tr>
+<tr><th>G50</th><td>Невралгия тройничного нерва</td></tr>
+<tr><th>G51</th><td>Невралгия лицевого нерва</td></tr>
+<tr><th>G54</th><td>Радикулит и плексит</td></tr>
+<tr><th>G58.0</th><td>Межреберная невропатия</td></tr>
+<tr><th>G61</th><td>Полиневропатия воспалительная</td></tr>
+<tr><th>G62</th><td>Полиневропатия алкогольная, лекарственная</td></tr>
+<tr><th>G80</th><td>Детский церебральный паралич [ДЦП]</td></tr>
+<tr><th>G92</th><td>Энцефалопатия токсическая</td></tr>
+<tr><th>G93.0</th><td>Церебральная киста</td></tr>
+<tr><th>G95.0</th><td>Сирингомиелия и сирингобульбия</td></tr>
+<tr><th>G95.1</th><td>Миелопатия сосудистая [острый инфаркт спинного мозга]</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

@@ -1,0 +1,100 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни уха и сосцевидного отростка</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Болезнь Меньера</td><th>H81.0</th></tr>
+<tr><td>Евстахиит</td><th>H68</th></tr>
+<tr><td>Кондуктивная и нейросенсорная потеря слуха</td><th>H90</th></tr>
+<tr><td>Мастоидит</td><th>H70</th></tr>
+<tr><td>Неврит слухового нерва</td><th>H93.3</th></tr>
+<tr><td>Отит наружный</td><th>H60</th></tr>
+<tr><td>Отит средний</td><th>H66</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни уха и сосцевидного отростка</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>H60</th><td>Отит наружный</td></tr>
+<tr><th>H66</th><td>Отит средний</td></tr>
+<tr><th>H68</th><td>Евстахиит</td></tr>
+<tr><th>H70</th><td>Мастоидит</td></tr>
+<tr><th>H81.0</th><td>Болезнь Меньера</td></tr>
+<tr><th>H90</th><td>Кондуктивная и нейросенсорная потеря слуха</td></tr>
+<tr><th>H93.3</th><td>Неврит слухового нерва</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

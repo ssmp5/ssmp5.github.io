@@ -1,0 +1,104 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни кожи и подкожной клетчатки</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Абсцесс кожи, фурункул и карбункул</td><th>L02</th></tr>
+<tr><td>Другие дерматиты</td><th>L30</th></tr>
+<tr><td>Другие местные инфекции кожи и подкожной клетчатки</td><th>L08</th></tr>
+<tr><td>Крапивница</td><th>L50</th></tr>
+<tr><td>Лимфаденит острый</td><th>L04</th></tr>
+<tr><td>Потница неуточненная</td><th>L74.3</th></tr>
+<tr><td>Псориаз</td><th>L40</th></tr>
+<tr><td>Солнечный ожог</td><th>L55</th></tr>
+<tr><td>Флегмона</td><th>L03</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни кожи и подкожной клетчатки</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>L02</th><td>Абсцесс кожи, фурункул и карбункул</td></tr>
+<tr><th>L03</th><td>Флегмона</td></tr>
+<tr><th>L04</th><td>Лимфаденит острый</td></tr>
+<tr><th>L08</th><td>Другие местные инфекции кожи и подкожной клетчатки</td></tr>
+<tr><th>L30</th><td>Другие дерматиты</td></tr>
+<tr><th>L40</th><td>Псориаз</td></tr>
+<tr><th>L50</th><td>Крапивница</td></tr>
+<tr><th>L55</th><td>Солнечный ожог</td></tr>
+<tr><th>L74.3</th><td>Потница неуточненная</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

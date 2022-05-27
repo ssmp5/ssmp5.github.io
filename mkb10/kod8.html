@@ -1,0 +1,138 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни мочеполовой системы</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Альгоменорея</td><th>N94.9</th></tr>
+<tr><td>Апоплексия яичников</td><th>N83.8</th></tr>
+<tr><td>Баланопостит и баланит</td><th>N48</th></tr>
+<tr><td>Бартолинит</td><th>N75</th></tr>
+<tr><td>Воспалительные болезни женских тазовых органов</td><th>N73</th></tr>
+<tr><td>Выпадение женских половых органов</td><th>N81</th></tr>
+<tr><td>Гидроцеле и сперматоцеле</td><th>N43</th></tr>
+<tr><td>Гиперплазия предстательной железы</td><th>N40</th></tr>
+<tr><td>Дисменорея</td><th>N92</th></tr>
+<tr><td>Камни почки и мочеточника [МКБ]</td><th>N20</th></tr>
+<tr><td>Кровотечения из матки и влагалища</td><th>N93</th></tr>
+<tr><td>Мастит</td><th>N61</th></tr>
+<tr><td>Нарушения мочеполовой системы после операций</td><th>N99</th></tr>
+<tr><td>Нефрит острый, гломерулонефрит хронический</td><th>N00</th></tr>
+<tr><td>Орхит и эпидидимит</td><th>N45</th></tr>
+<tr><td>Перекручивание яичка</td><th>N44</th></tr>
+<tr><td>Пиелонефрит хронический</td><th>N11</th></tr>
+<tr><td>Почечная колика неуточненная</td><th>N23</th></tr>
+<tr><td>Почечная недостаточность острая</td><th>N17</th></tr>
+<tr><td>Почечная недостаточность хроническая</td><th>N18</th></tr>
+<tr><td>Простатит</td><th>N41</th></tr>
+<tr><td>Сальпингит и оофорит</td><th>N70</th></tr>
+<tr><td>Уретрит</td><th>N34</th></tr>
+<tr><td>Фимоз и парафимоз</td><th>N47</th></tr>
+<tr><td>Цистит</td><th>N30</th></tr>
+<tr><td>Эндо(мио)метрит</td><th>N71</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Болезни мочеполовой системы</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>N00</th><td>Нефрит острый, гломерулонефрит хронический</td></tr>
+<tr><th>N11</th><td>Пиелонефрит хронический</td></tr>
+<tr><th>N17</th><td>Почечная недостаточность острая</td></tr>
+<tr><th>N18</th><td>Почечная недостаточность хроническая</td></tr>
+<tr><th>N20</th><td>Камни почки и мочеточника [МКБ]</td></tr>
+<tr><th>N23</th><td>Почечная колика неуточненная</td></tr>
+<tr><th>N30</th><td>Цистит</td></tr>
+<tr><th>N34</th><td>Уретрит</td></tr>
+<tr><th>N40</th><td>Гиперплазия предстательной железы</td></tr>
+<tr><th>N41</th><td>Простатит</td></tr>
+<tr><th>N43</th><td>Гидроцеле и сперматоцеле</td></tr>
+<tr><th>N44</th><td>Перекручивание яичка</td></tr>
+<tr><th>N45</th><td>Орхит и эпидидимит</td></tr>
+<tr><th>N47</th><td>Фимоз и парафимоз</td></tr>
+<tr><th>N48</th><td>Баланопостит и баланит</td></tr>
+<tr><th>N61</th><td>Мастит</td></tr>
+<tr><th>N70</th><td>Сальпингит и оофорит</td></tr>
+<tr><th>N71</th><td>Эндо(мио)метрит</td></tr>
+<tr><th>N73</th><td>Воспалительные болезни женских тазовых органов</td></tr>
+<tr><th>N75</th><td>Бартолинит</td></tr>
+<tr><th>N81</th><td>Выпадение женских половых органов</td></tr>
+<tr><th>N83.8</th><td>Апоплексия яичников</td></tr>
+<tr><th>N92</th><td>Дисменорея</td></tr>
+<tr><th>N93</th><td>Кровотечения из матки и влагалища</td></tr>
+<tr><th>N94.9</th><td>Альгоменорея</td></tr>
+<tr><th>N99</th><td>Нарушения мочеполовой системы после операций</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

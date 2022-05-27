@@ -1,0 +1,118 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Психические расстройства и расстройства поведения</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Абстинентное состояние</td><th>F10.3</th></tr>
+<tr><td>Абстинентное состояние с делирием</td><th>F10.4</th></tr>
+<tr><td>Деменция неуточненная</td><th>F03</th></tr>
+<tr><td>Депрессивный эпизод</td><th>F32</th></tr>
+<tr><td>Истерия [диссоциативные расстройства]</td><th>F44</th></tr>
+<tr><td>Маниакальный эпизод</td><th>F30</th></tr>
+<tr><td>Органический амнестический синдром</td><th>F04</th></tr>
+<tr><td>Острая алкогольная интоксикация</td><th>F10.0</th></tr>
+<tr><td>Посттравматический мозговой синдром</td><th>F07</th></tr>
+<tr><td>Психич. и поведенч. расстр., вызванные употр. алкоголя</td><th>F10</th></tr>
+<tr><td>Психич. и поведенч. расстр., вызванные употр. летучих растворителей</td><th>F18</th></tr>
+<tr><td>Психич. и поведенч. расстр., вызванные употр. неск. нарк. ср-в и др.</td><th>F19</th></tr>
+<tr><td>Психическое расстройство неуточненное</td><th>F99</th></tr>
+<tr><td>Психоз неуточненный [неорганический]</td><th>F29</th></tr>
+<tr><td>Соматоформная дисфункция вегетативной нервной системы [НЦД]</td><th>F45</th></tr>
+<tr><td>Шизофрения</td><th>F20</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Психические расстройства и расстройства поведения</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>F03</th><td>Деменция неуточненная</td></tr>
+<tr><th>F04</th><td>Органический амнестический синдром</td></tr>
+<tr><th>F07</th><td>Посттравматический мозговой синдром</td></tr>
+<tr><th>F10</th><td>Психич. и поведенч. расстр., вызванные употр. алкоголя</td></tr>
+<tr><th>F10.0</th><td>Острая алкогольная интоксикация</td></tr>
+<tr><th>F10.3</th><td>Абстинентное состояние</td></tr>
+<tr><th>F10.4</th><td>Абстинентное состояние с делирием</td></tr>
+<tr><th>F18</th><td>Психич. и поведенч. расстр., вызванные употр. летучих растворителей</td></tr>
+<tr><th>F19</th><td>Психич. и поведенч. расстр., вызванные употр. неск. нарк. ср-в и др.</td></tr>
+<tr><th>F20</th><td>Шизофрения</td></tr>
+<tr><th>F29</th><td>Психоз неуточненный [неорганический]</td></tr>
+<tr><th>F30</th><td>Маниакальный эпизод</td></tr>
+<tr><th>F32</th><td>Депрессивный эпизод</td></tr>
+<tr><th>F44</th><td>Истерия [диссоциативные расстройства]</td></tr>
+<tr><th>F45</th><td>Соматоформная дисфункция вегетативной нервной системы [НЦД]</td></tr>
+<tr><th>F99</th><td>Психическое расстройство неуточненное</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

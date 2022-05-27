@@ -1,0 +1,118 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Беременность, роды и послеродовый период</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Аборт неуточненный</td><th>O06</th></tr>
+<tr><td>Аборт самопроизвольный</td><th>O03</th></tr>
+<tr><td>Аборт угрожающий</td><th>O20.0</th></tr>
+<tr><td>Внематочная беременность [эктопическая]</td><th>O00</th></tr>
+<tr><td>Кровотечение послеродовое</td><th>O72</th></tr>
+<tr><td>Омфалит новорожденного</td><th>P38</th></tr>
+<tr><td>Осложнения вызванные абортом, внематочной беременностью</td><th>O08</th></tr>
+<tr><td>Преэклампсия</td><th>O14</th></tr>
+<tr><td>Роды</td><th>O80</th></tr>
+<tr><td>Роды [в присутствии бригады]</td><th>O80.9</th></tr>
+<tr><td>Роды [до приезда бригады]</td><th>O80.8</th></tr>
+<tr><td>Роды преждевременные [в присутствии бригады]</td><th>O60.9</th></tr>
+<tr><td>Роды преждевременные [до приезда бригады]</td><th>O60.8</th></tr>
+<tr><td>Роды преждевременные [ранее 37 полных недель беременности]</td><th>O60</th></tr>
+<tr><td>Смерть плода по неуточненной причине</td><th>P95</th></tr>
+<tr><td>Эклампсия</td><th>O15</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Беременность, роды и послеродовый период</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>O00</th><td>Внематочная беременность [эктопическая]</td></tr>
+<tr><th>O03</th><td>Аборт самопроизвольный</td></tr>
+<tr><th>O06</th><td>Аборт неуточненный</td></tr>
+<tr><th>O08</th><td>Осложнения вызванные абортом, внематочной беременностью</td></tr>
+<tr><th>O14</th><td>Преэклампсия</td></tr>
+<tr><th>O15</th><td>Эклампсия</td></tr>
+<tr><th>O20.0</th><td>Аборт угрожающий</td></tr>
+<tr><th>O60</th><td>Роды преждевременные [ранее 37 полных недель беременности]</td></tr>
+<tr><th>O60.8</th><td>Роды преждевременные [до приезда бригады]</td></tr>
+<tr><th>O60.9</th><td>Роды преждевременные [в присутствии бригады]</td></tr>
+<tr><th>O72</th><td>Кровотечение послеродовое</td></tr>
+<tr><th>O80</th><td>Роды</td></tr>
+<tr><th>O80.8</th><td>Роды [до приезда бригады]</td></tr>
+<tr><th>O80.9</th><td>Роды [в присутствии бригады]</td></tr>
+<tr><th>P38</th><td>Омфалит новорожденного</td></tr>
+<tr><th>P95</th><td>Смерть плода по неуточненной причине</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>

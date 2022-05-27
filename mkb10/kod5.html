@@ -1,0 +1,202 @@
+<ons-page>
+<style>
+.gltab table, th, div                            /* таблица 1 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+} 
+.gltab th
+{  
+  background: #AFCDE7;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+.gltab td
+{  
+  background: #c0c0c0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+.gltab div
+{  
+  font-size: 11px;
+}
+.vtab table, th, td                             /* таблица 2 */
+{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000000;
+}
+.vtab th
+{  
+  font-weight: bold;
+  background: #AFCDE7;
+  padding: 6px 2px;
+  border: 1px solid #6678b1;
+  text-align: center;
+}
+.vtab td
+{  
+  background: #D8E6F3;
+  padding: 4px 2px;
+  border: 1px solid #6678b1;
+  border-radius: 0px;
+  text-align: left;
+}
+</style>
+
+<ons-toolbar fixed-style="center">
+<div class="left"><ons-toolbar-button onclick="myNavigator.popPage({animation : 'fade' })"><ons-icon icon="ion-reply" style="font-size: 32px; width: 1em; color: #336699;"></ons-toolbar-button></div>
+<div class="center" style="font-size: 18px; color: red; font-weight: bold;">МКБ-10</div>
+</ons-toolbar>
+
+<ons-carousel swipeable overscrollable auto-scroll fullscreen id="carousel">
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Инфекционные и паразитарные болезни</b>
+<hr /><div>Сортировка по алфавиту</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><td>Бактериальное пищевое отравление неуточненное [ПТИ]</td><th>A05.9</th></tr>
+<tr><td>Бешенство</td><th>A82</th></tr>
+<tr><td>Ботулизм</td><th>A05.1</th></tr>
+<tr><td>Бруцеллез</td><th>A23</th></tr>
+<tr><td>Ветряная оспа</td><th>B01</th></tr>
+<tr><td>Вирусная геморрагическая лихорадка неуточненная</td><th>A99</th></tr>
+<tr><td>Вирусный гепатит неуточненный</td><th>B19</th></tr>
+<tr><td>Вирусный гепатит хронический</td><th>B18</th></tr>
+<tr><td>Газовая гангрена</td><th>A48.0</th></tr>
+<tr><td>Гельминтозы неуточненные</td><th>B83.9</th></tr>
+<tr><td>Гонорея</td><th>A54</th></tr>
+<tr><td>Дерматит герпетический везикулярный</td><th>B00.1</th></tr>
+<tr><td>Дизентерия</td><th>A03</th></tr>
+<tr><td>Дифтерия</td><th>A36</th></tr>
+<tr><td>Другие бактериальные кишечные инфекции [ОКИ]</td><th>A04</th></tr>
+<tr><td>Иерсиниоз</td><th>A28.2</th></tr>
+<tr><td>Инфекционный мононуклеоз</td><th>B27</th></tr>
+<tr><td>Кандидоз</td><th>B37</th></tr>
+<tr><td>Кандидоз неуточненный [молочница]</td><th>B37.9</th></tr>
+<tr><td>Коклюш</td><th>A37</th></tr>
+<tr><td>Конъюнктивит вирусный</td><th>B30</th></tr>
+<tr><td>Конъюнктивит герпетический</td><th>B00.5</th></tr>
+<tr><td>Корь</td><th>B05</th></tr>
+<tr><td>Краснуха</td><th>B06</th></tr>
+<tr><td>Лихорадка от кошачьих царапин</td><th>A28.1</th></tr>
+<tr><td>Лихорадка от укуса крыс неуточненная</td><th>A25.9</th></tr>
+<tr><td>Малярия неуточненная</td><th>B54</th></tr>
+<tr><td>Менингит вирусный</td><th>A87</th></tr>
+<tr><td>Менингококковая инфекция</td><th>A39</th></tr>
+<tr><td>Опоясывающий лишай</td><th>B02</th></tr>
+<tr><td>Острый гепатит A</td><th>B15</th></tr>
+<tr><td>Острый гепатит B</td><th>B16</th></tr>
+<tr><td>Острый гепатит другой</td><th>B17</th></tr>
+<tr><td>Педикулез</td><th>B85</th></tr>
+<tr><td>Полиомиелит</td><th>A80</th></tr>
+<tr><td>Рожа</td><th>A46</th></tr>
+<tr><td>Сальмонеллез</td><th>A02</th></tr>
+<tr><td>Сепсис</td><th>A41.9</th></tr>
+<tr><td>Сибирская язва</td><th>A22</th></tr>
+<tr><td>Синдром приобретенного иммунодефицита [СПИД]</td><th>B24</th></tr>
+<tr><td>Сифилис</td><th>A53</th></tr>
+<tr><td>Скарлатина</td><th>A38</th></tr>
+<tr><td>Столбняк</td><th>A35</th></tr>
+<tr><td>Стоматит герпетический</td><th>B00.2</th></tr>
+<tr><td>Тиф возвратный</td><th>A68</th></tr>
+<tr><td>Тиф и паратиф</td><th>A01</th></tr>
+<tr><td>Тиф сыпной</td><th>A75</th></tr>
+<tr><td>Токсоплазмоз</td><th>B58</th></tr>
+<tr><td>Туберкулез других органов</td><th>A18</th></tr>
+<tr><td>Туберкулез органов дыхания неуточненный</td><th>A16.9</th></tr>
+<tr><td>Туляремия</td><th>A21</th></tr>
+<tr><td>Холера</td><th>A00</th></tr>
+<tr><td>Чесотка</td><th>B86</th></tr>
+<tr><td>Чума</td><th>A20</th></tr>
+<tr><td>Энцефалит вирусный неуточненный</td><th>A86</th></tr>
+<tr><td>Энцефалит клещевой вирусный</td><th>A84</th></tr>
+<tr><td>Энцефалит комариный вирусный</td><th>A83</th></tr>
+<tr><td>Эпидемический паротит</td><th>B26</th></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+<ons-carousel-item style="overflow: auto">
+<div>
+
+<table class="gltab" cellspacing="10" cellpadding="5" width="100%">
+<tr><th><b>Инфекционные и паразитарные болезни</b>
+<hr /><div>Сортировка по коду</div>
+</th></tr>
+</table>
+
+<table class="vtab" style="border-collapse: collapse; width: 96%; margin-left: auto; margin-right: auto;">
+<tr><th>A00</th><td>Холера</td></tr>
+<tr><th>A01</th><td>Тиф и паратиф</td></tr>
+<tr><th>A02</th><td>Сальмонеллез</td></tr>
+<tr><th>A03</th><td>Дизентерия</td></tr>
+<tr><th>A04</th><td>Другие бактериальные кишечные инфекции [ОКИ]</td></tr>
+<tr><th>A05.1</th><td>Ботулизм</td></tr>
+<tr><th>A05.9</th><td>Бактериальное пищевое отравление неуточненное [ПТИ]</td></tr>
+<tr><th>A16.9</th><td>Туберкулез органов дыхания неуточненный</td></tr>
+<tr><th>A18</th><td>Туберкулез других органов</td></tr>
+<tr><th>A20</th><td>Чума</td></tr>
+<tr><th>A21</th><td>Туляремия</td></tr>
+<tr><th>A22</th><td>Сибирская язва</td></tr>
+<tr><th>A23</th><td>Бруцеллез</td></tr>
+<tr><th>A25.9</th><td>Лихорадка от укуса крыс неуточненная</td></tr>
+<tr><th>A28.1</th><td>Лихорадка от кошачьих царапин</td></tr>
+<tr><th>A28.2</th><td>Иерсиниоз</td></tr>
+<tr><th>A35</th><td>Столбняк</td></tr>
+<tr><th>A36</th><td>Дифтерия</td></tr>
+<tr><th>A37</th><td>Коклюш</td></tr>
+<tr><th>A38</th><td>Скарлатина</td></tr>
+<tr><th>A39</th><td>Менингококковая инфекция</td></tr>
+<tr><th>A41.9</th><td>Сепсис</td></tr>
+<tr><th>A46</th><td>Рожа</td></tr>
+<tr><th>A48.0</th><td>Газовая гангрена</td></tr>
+<tr><th>A53</th><td>Сифилис</td></tr>
+<tr><th>A54</th><td>Гонорея</td></tr>
+<tr><th>A68</th><td>Тиф возвратный</td></tr>
+<tr><th>A75</th><td>Тиф сыпной</td></tr>
+<tr><th>A80</th><td>Полиомиелит</td></tr>
+<tr><th>A82</th><td>Бешенство</td></tr>
+<tr><th>A83</th><td>Энцефалит комариный вирусный</td></tr>
+<tr><th>A84</th><td>Энцефалит клещевой вирусный</td></tr>
+<tr><th>A86</th><td>Энцефалит вирусный неуточненный</td></tr>
+<tr><th>A87</th><td>Менингит вирусный</td></tr>
+<tr><th>A99</th><td>Вирусная геморрагическая лихорадка неуточненная</td></tr>
+<tr><th>B00.1</th><td>Дерматит герпетический везикулярный</td></tr>
+<tr><th>B00.2</th><td>Стоматит герпетический</td></tr>
+<tr><th>B00.5</th><td>Конъюнктивит герпетический</td></tr>
+<tr><th>B01</th><td>Ветряная оспа</td></tr>
+<tr><th>B02</th><td>Опоясывающий лишай</td></tr>
+<tr><th>B05</th><td>Корь</td></tr>
+<tr><th>B06</th><td>Краснуха</td></tr>
+<tr><th>B15</th><td>Острый гепатит A</td></tr>
+<tr><th>B16</th><td>Острый гепатит B</td></tr>
+<tr><th>B17</th><td>Острый гепатит другой</td></tr>
+<tr><th>B18</th><td>Вирусный гепатит хронический</td></tr>
+<tr><th>B19</th><td>Вирусный гепатит неуточненный</td></tr>
+<tr><th>B24</th><td>Синдром приобретенного иммунодефицита [СПИД]</td></tr>
+<tr><th>B26</th><td>Эпидемический паротит</td></tr>
+<tr><th>B27</th><td>Инфекционный мононуклеоз</td></tr>
+<tr><th>B30</th><td>Конъюнктивит вирусный</td></tr>
+<tr><th>B37</th><td>Кандидоз</td></tr>
+<tr><th>B37.9</th><td>Кандидоз неуточненный [молочница]</td></tr>
+<tr><th>B54</th><td>Малярия неуточненная</td></tr>
+<tr><th>B58</th><td>Токсоплазмоз</td></tr>
+<tr><th>B83.9</th><td>Гельминтозы неуточненные</td></tr>
+<tr><th>B85</th><td>Педикулез</td></tr>
+<tr><th>B86</th><td>Чесотка</td></tr>
+</table>
+
+</div>
+</ons-carousel-item>
+</ons-carousel>
+</ons-page>
